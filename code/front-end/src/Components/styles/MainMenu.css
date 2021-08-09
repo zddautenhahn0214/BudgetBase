@@ -1,0 +1,27 @@
+.MainMenu {
+  text-align: center;
+}
+
+.MainMenu-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.MainMenu-header {
+  background-color: #47484E;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: #ffed61;
+}
+
+.MainMenu-link {
+  color: #61dafb;
+}
+
+

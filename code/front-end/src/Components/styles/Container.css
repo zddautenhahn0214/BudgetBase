@@ -1,0 +1,47 @@
+
+/*
+This file is the css for the overall theme and background for the app.
+
+color scheme choices
+
+background: #47484E
+color: 		#ffed61
+
+background: #3B5153
+color: 		#F5F541
+
+background: #262626
+color: 		#f2e291
+
+
+
+*/
+
+.Container {
+	text-align: center;
+	background-color: #47484E;
+	min-height: 100vh;
+	font-size: calc(12px + 2vmin);
+	color: #ffed61;
+}
+
+
+.Container button {
+	box-sizing: border-box;
+	text-decoration:none;
+	font-weight:300;
+	color:#ffed61;
+	background-color: #47484E;
+	border:0.1em solid #ffed61;
+	text-align:center;
+	transition: all 0.2s;
+	font-size: 0.5em;
+	border-radius:0.12em;
+}
+
+.Container button:hover{
+	color:#47484E;
+	background-color:#ffed61;
+}
+
+

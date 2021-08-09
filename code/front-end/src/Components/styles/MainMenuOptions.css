@@ -1,0 +1,30 @@
+.Options {
+  display: grid;
+  grid-column-gap: 100px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+
+
+.Options button {
+	padding:0.35em 1.2em;
+	border:0.1em solid #ffed61;
+	margin:2em 0.3em 0.3em 0em;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-weight:300;
+	color:#ffed61;
+	background-color: #47484E;
+	text-align:center;
+	transition: all 0.2s;
+	font-size: 0.5em
+}
+
+.Options button:hover{
+color:#47484E;
+background-color:#ffed61;
+}
+
+
